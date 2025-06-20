@@ -50,37 +50,87 @@
       padding: 2rem;
       box-shadow: 0 0 10px rgba(255,102,0,0.3);
     }
-    h1 {
+    h1, h2 {
       color: #ff6600;
-      margin-bottom: 1rem;
       text-align: center;
+      margin-bottom: 1rem;
     }
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 1.6;
       text-align: center;
+      margin-bottom: 2rem;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .member {
+      background-color: #333;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+      width: 260px;
+    }
+    .member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .member h3 {
+      margin: 0.5rem 0 0.25rem;
+      color: #fff;
+    }
+    .member p {
+      font-size: 0.95rem;
+      color: #ccc;
+      margin: 0;
     }
   </style>
 </head>
 <body>
 
-  <nav>
-    <div class="logo">TravelExplorer</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html" aria-current="page">About Us</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </nav>
+<nav>
+  <div class="logo">TravelExplorer</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" aria-current="page">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
 
-  <main>
-    <h1>About Us</h1>
-    <p>
-      At TravelExplorer, our mission is to help travelers discover new cultures and destinations around the world.
-      We believe in cultural immersion and meaningful travel experiences that broaden horizons and create lasting memories.
-      Join us on a journey of exploration, learning, and adventure.
-    </p>
-  </main>
+<main>
+  <h1>About TravelExplorer</h1>
+  <p>
+    TravelExplorer is a passionate travel platform built for wanderers, explorers, and culture-seekers. Our mission is to connect people to the beauty of the world by curating unforgettable destinations, cultural experiences, and authentic travel recommendations. Whether it's sun-soaked beaches, ancient temples, or hidden gems around the globe вЂ” we bring them all to you with love and expertise.
+  </p>
+
+  <h2>Meet Our Team</h2>
+  <div class="team">
+    <div class="member">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emily Thompson">
+      <h3>Emily Thompson</h3>
+      <p>Founder & CEO</p>
+      <p>Emily is a lifelong traveler with a passion for connecting cultures. She started TravelExplorer to inspire others to explore the world meaningfully.</p>
+    </div>
+    <div class="member">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Liam Chen">
+      <h3>Liam Chen</h3>
+      <p>Lead Travel Curator</p>
+      <p>Liam brings over 10 years of experience in destination planning, with a keen eye for hidden gems and local traditions.</p>
+    </div>
+    <div class="member">
+      <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sofia Martinez">
+      <h3>Sofia Martinez</h3>
+      <p>Marketing & Community</p>
+      <p>Sofia manages our global community of explorers and helps spread the word about immersive travel experiences.</p>
+    </div>
+  </div>
+</main>
 
 </body>
 </html>
